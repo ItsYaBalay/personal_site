@@ -1,9 +1,9 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
+/* body{
 
-}
+} */
 header{
     background-color: lightgray;
     /* padding: 30px; */
@@ -14,6 +14,7 @@ header{
     align-items: center;
     left: 0;
     right: 0;
+    top: 0;
 }
 .name{
     /* display: inline-block; */
@@ -23,41 +24,45 @@ header{
 
 }
 
-ul{
+.navcontainer{
     list-style-type: none;
     justify-content: flex-end;
     margin-right: 50px;
 }
 
-li{
+.navitem{
     display: inline-flex;
 }
 
-li h1{
-    display: inline;
-}
-li h1 a{
+.navlink{
     background-color: grey;
     padding: 10px;
     text-decoration: none;
     color:white;
     border-radius: 10px;
 }
-li h1 a:hover{
+.navlink:hover{
     background-color: darkgrey;
 }
 
 .active{
     background-color:black;
 }
+
 main{
     padding: 135px 50px 50px 50px;
 }
 
-.home_bio{
+.flex{
     display: flex;
 }
 .quote{
-    font-size:xx-large;
+    font-size: xx-large;
     text-align: center;
 }
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
