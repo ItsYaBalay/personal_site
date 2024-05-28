@@ -57,4 +57,7 @@ main{
 .home_bio{
     display: flex;
 }
-
+.quote{
+    font-size:xx-large;
+    text-align: center;
+}
