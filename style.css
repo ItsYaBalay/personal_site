@@ -24,10 +24,17 @@ header{
 
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
 .navcontainer{
     list-style-type: none;
     justify-content: flex-end;
     margin-right: 50px;
+    
+
 }
 
 .navitem{
@@ -50,12 +57,21 @@ header{
 }
 
 main{
-    padding: 135px 50px 50px 50px;
+    padding: 200px 50px 50px 50px; /* to account for navbar */
 }
 
-.flex{
-    display: flex;
+@media screen and (min-width: 786px){
+    main{
+        padding: 135px 50px 50px 50px;
+    }
+
+    .flex{
+        flex-direction: row;
+    }
+
 }
+
+
 .quote{
     font-size: xx-large;
     text-align: center;
@@ -65,4 +81,15 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+label{
+    display:block;
+}
+
+.message_area{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
