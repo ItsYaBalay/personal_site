@@ -82,3 +82,14 @@ main{
     flex-direction: column;
 }
 
+label{
+    display:block;
+}
+
+.message_area{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
